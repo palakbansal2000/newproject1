@@ -1,0 +1,104 @@
+<html>
+	<head>
+		<title>Project 2</title>
+	</head>
+	<body style="margin-left:250px;margin-right: 300px">
+		<center><h1>Statistics: The Science of Decisions Project </h1></center>
+		<h2>1.Independent variable and Dependent variable</h2>
+		<b>Independnt variable:</b>
+			Based on the background information the Independent variable for this project is whether the word is congruent/Incongruent <br>
+		<b>Dependent variable</b>
+			Here the time taken for recognize the color of the words in the pictures is dependent variable. the picture may contain congruent/Incongruent  variable
+		<h2>2. What is an appropriate set of hypothesis for this task? What kind of statistical test do you expect to perform? Justify your choices.</h2>
+		<b>Hypothesis:</b><br><br>               &nbsp;
+			H<sub>0</sub> - Null hypothesis<br>  &nbsp;
+			H<sub>A</sub> - Alternative  hypothesis<br>
+			<b>Null hypothesis:</b>  <br><br>    &nbsp;
+
+			H<sub>0</sub> : μ<sub>c</sub> >= μ<sub>I</sub><br>
+			Where,<br>
+			μ<sub>c</sub> is Mean of congruent word<br>
+			μ<sub>I</sub> is Mean of Incongruent word<br>
+			<p> The null hypothesis is that the taken to recognize the color of Incogruent words is grater then or less then that of recognizing color of Congruent words</p>
+			<b>Alternative hypothesis:</b><br><br>&nbsp;
+			H<sub>A</sub> : μ<sub>c</sub> < μ<sub>I</sub><br>
+			<p>Thus in alternative hypothesis where the recognizing time for Congruent word is less than that of Incongruent words</p>
+
+			<b>Kind of statistical test</b><br>
+				<p> Here One tailed test(dependent) using t-table is performed
+				for the given sample datasets (time taken to recognize color ofcongruent and Incongruent word ).By this test we want get the evidence to prove μ<sub>c</sub> < μ<sub>I</sub> for the whole population</p>
+				 Since we want to prove it for whole population using z-table will not be appropriate hence we are using t-table
+			<br>
+			<h2>3. Report some descriptive statistics regarding this dataset. Include at least one measure of central tendency and at least one measure of variability</h2>
+			<table border="1">
+				<tr>
+					<th></th>
+					<th>Congruent</th>
+					<th>Incongruent</th>
+					<th>Difference</th>
+				</tr>
+				<tr>
+					<td>Mean</td>
+					<td>14.05</td>
+					<td>22.01</td>
+					<td>-7.96</td>
+				</tr>
+				<tr>
+					<td>Median</td>
+					<td>15.19</td>
+					<td>18.07</td>
+					<td>-2.90</td>
+				</tr>
+				<tr>
+					<td>Mode</td>
+					<td>22.32</td>
+					<td>35.25</td>
+					<td>-5.153</td>
+				</tr>
+				<tr>
+					<td>Standard deviation</td>
+					<td>3.56</td>
+					<td>4.80</td>
+					<td>4.86</td>
+				</tr>
+				<tr>
+					<td>Standard error</td>
+					<td>0.73</td>
+					<td>0.98</td>
+					<td>0.99</td>
+				</tr>
+			</table>
+			<h2>4. visualizations that show the distribution of the sample data</h2>
+			<table>
+				<tr>
+					<th><b>Graph for congruent sample data</b></th>
+					<th><b>Graph for congruent sample data</b></th>
+				</tr>
+				<tr>
+				 	<td><img src="Congruent.png"></td>
+				    <td><img src="Incongruent.png"></td>
+				</tr>
+
+			</table>
+			<p>By comparing the both graphes form the sample data for Congruent and Incongruent test result we can clearly see the the time taken for the Samples(contestant) to read the incongruent words is greater then/equal to that of congruent words not less then it  </p>
+			<h2>5.The statistical test and report results</h2>
+			<ul>
+				<li>Degree of freedom = 23</li>
+				<li>t-critical value = 2.807</li>
+				<li>t-statistic = -8.021</li>
+				<li>p<sub>value</sub> < t-statistic</li>
+			</ul>
+			<p>Here at 0.01(99%) alpha level the result of one-tailed test
+			negative and it also rejects the null hypothesis.So we have the evidence to prove that  it takes less time to recognize the colour of words with the congruent condition compared to words with the incongruent condition. 
+			</p>
+			<h2>6.What do you think is responsible for the effects observed?Can you think of an alternative or similar task that would result in a similar effect?</h2>
+			<p>	In this effect the time taking for recognize the color of the Incongruent words is larger/equal to time taken for recognize the color of Congurent words beacuse the brain gets confused. Since it recogonizes the word first and then the color, thus result in time lapse. Brain takes much time to recogonize color than a text</p>
+			<p>Similarly we can also use the color square for this test</p>
+			<h2>Source</h2>
+				<ul>
+					<li>Google spreadsheet</li>
+					<li>Udacity datalist</li>
+					<li>Wikipedia for stroop effect</li>
+				</ul>
+	</body>
+</html>
